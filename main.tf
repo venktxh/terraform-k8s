@@ -7,7 +7,7 @@ resource "kubernetes_namespace" "ns" {
     name = "btech-project"
   }
 }
-
+#2023bcs0092
 # NGINX Deployment
 resource "kubernetes_deployment" "nginx" {
   metadata {
